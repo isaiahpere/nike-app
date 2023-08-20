@@ -24,6 +24,16 @@
 }
 
 @layer utilities {
+  /* noscroll: https://dev.to/derick1530/how-to-create-scrollable-element-in-tailwind-without-a-scrollbar-4mbd */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
   .padding {
     @apply sm:px-16 px-8 sm:py-24 py-12;
   }
