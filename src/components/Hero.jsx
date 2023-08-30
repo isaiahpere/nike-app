@@ -27,10 +27,11 @@ const Hero = () => {
             The New Arrival
           </span>
           <br />
-          <span className={`text-coral-red inline-blcok mt-3`}>Nike</span> Shoes
+          <span className={`text-coral-red inline-blcok mt-3`}>Niket</span>{" "}
+          Shoes
         </h1>
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 max-md:mb-10  sm:max-w-sm">
-          Discover stylish Nike arrivals, quality confort, and innovation for
+          Discover stylish Niket arrivals, quality confort, and innovation for
           your active life
         </p>
         <Button label="Shop Now" iconUrl={arrowRight} />
